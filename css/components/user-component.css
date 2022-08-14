@@ -1,15 +1,12 @@
 .user-component {
     display: flex;
-}
-
-.user-component {
     justify-content: space-between;
 }
 
-.user-component_column,
-.user-component_column:first-child {
+.user-component_column {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .user-component__avatar {
