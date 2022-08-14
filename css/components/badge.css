@@ -17,4 +17,5 @@
     background-color: tomato;
     display: block;
     border-radius: 50%;
+    position: absolute;
 }
