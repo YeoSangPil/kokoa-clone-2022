@@ -1,17 +1,28 @@
 .alt-header {
-    padding: 28px var(--horizental-space);
+    padding: 0px var(--horizental-space) 28px var(--horizental-space);
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.alt-header__column {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .alt-header__column:first-child {
-    margin-right: auto;
+    justify-content: flex-start;
 }
 
 .alt-header__column:last-child {
-    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.alt-header__column:last-child i {
+    padding-left: 20px;
 }
 
 .alt-header__title {
