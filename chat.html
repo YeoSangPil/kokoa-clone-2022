@@ -38,8 +38,40 @@
         </header>
         <main class="main-screen main-chat">
             <div class="chat__timestamp">
-                <span>Tuesday, June 30, 2020</span>
+                Tuesday, June 30, 2020
             </div>
+            <div class="message-row">
+                <img src="http://127.0.0.1:5500/img/dolphin.png">
+                <div class="message-row__content">
+                    <span class="message__author">Dolphin</span>
+                    <div class="message__info">
+                        <span class="message__bubble">Hi!</span>
+                        <span class="message__time">21:33</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message__bubble">Hi!</span>
+                        <span class="message__time">21:33</span>
+                    </div>
+                </div>
+            </div>
+
+            <form class="reply">
+                <div class="reply__column">
+                    <i class="far fa-plus-square fa-2x"></i>
+                </div>
+                <div class="reply__column">
+                    <input type="text" placeholder="Write a message...">
+                    <i class="far fa-smile fa-2x"></i>
+                    <button>
+                        <i class="fa fa-arrow-up fa-xl"></i>
+                    </button>
+                </div>
+            </form>
+
         </main>
         <script src="https://kit.fontawesome.com/bd8ce9ab62.js" crossorigin="anonymous"></script>
     </body>
