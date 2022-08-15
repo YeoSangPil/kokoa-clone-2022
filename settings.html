@@ -7,51 +7,87 @@
     <title>Settings</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <div class="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fas fa-wifi"></i>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fas fa-battery-full"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
         </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <span>110%</span>
-            <i class="fas fa-battery-full"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
-    </div>
-    
-    <main class="main-screen more-screen">
-        
-    </main>
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn">
-                <a class="nav__link" href="friends.html">
-                    <i class="far fa-user fa-2x"></i>
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="more.html">
+                    <i class="fas fa-angle-left fa-3x"></i>
                 </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="chats.html">
-                    <span class="nav__notification badge">1</span>
-                    <i class="far fa-comment fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="find.html">
-                    <i class="fa fa-search fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                    <span class="nav__update badge--icon-notify"></span>
-                    <i class="fa fa-ellipsis-h fa-2x"></i>
-                </a>
-            </li>
-        </ul>
-    </nav>
-    <script src="https://kit.fontawesome.com/bd8ce9ab62.js" crossorigin="anonymous"></script>
-</body>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">Settings</h1>
+            </div>
+            <div class="alt-header__column">
+                <i class="fas fa-search fa-2x"></i>
+            </div>
+        </header>
+        <main class="main-screen more-screen">
+            <ul class="settings-list">
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fa fa-bullhorn"></i>
+                        <span>Notices</span>
+                    </div>
+                    <div class="settings__setting-column"></div>
+                </li>
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fas fa-flask"></i>
+                        <span>Kakao Lab</span>
+                    </div>
+                    <div class="settings__setting-column"></div>
+                </li>
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Version</span>
+                    </div>
+                    <div class="settings__setting-column">
+                        <span>Latest Version</span>
+                    </div>
+                </li>
+            </ul>
+        </main>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__link" href="friends.html">
+                        <i class="far fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="chats.html">
+                        <span class="nav__notification badge">1</span>
+                        <i class="far fa-comment fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="find.html">
+                        <i class="fa fa-search fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="more.html">
+                        <span class="nav__update badge--icon-notify"></span>
+                        <i class="fa fa-ellipsis-h fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <script src="https://kit.fontawesome.com/bd8ce9ab62.js" crossorigin="anonymous"></script>
+    </body>
 </html>
